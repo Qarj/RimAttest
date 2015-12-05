@@ -15,14 +15,14 @@ namespace RimAttest.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "RimAttest provides a web site for automated test examples.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Qarj on GitHub.";
 
             return View();
         }
