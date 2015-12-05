@@ -1,7 +1,7 @@
 #ToDo List
 
 ##Release 1
-- Tell Google not to index the site / follow links
+x Tell Google not to index the site / follow links
 - Provide a form that does not require authentication to submit
 - Sumbit takes to another page or pages depending on what was submitted
 

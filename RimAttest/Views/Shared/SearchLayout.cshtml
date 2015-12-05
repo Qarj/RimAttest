@@ -1,0 +1,17 @@
+﻿@using RimAttest.ViewModels
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@RenderSection("TitleSection")</title>
+    @RenderSection("HeaderSection", false)
+</head>
+<body>
+    <hr />
+    <div>
+        @RenderSection("ContentBody")
+    </div>
+</body>
+</html>
