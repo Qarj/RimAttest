@@ -1,13 +1,8 @@
 ﻿@using RimAttest.ViewModels
 @model SearchViewModel
 
-
 @{
-    Layout = "~/Views/Shared/SearchLayout.cshtml";
-}
-
-@section TitleSection{
-    SearchRecipes
+    ViewBag.Title = "Search Recipes";
 }
 
 @section HeaderSection{
@@ -20,7 +15,10 @@
     }
     </script>
 }
-@section ContentBody{
+
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
     <div>
         <form action="/Search/SearchRecipes" method="post" id="SearchForm">
             <table>
@@ -76,4 +74,3 @@
             </table>
         </form>
     </div>
-}
