@@ -25,10 +25,10 @@ namespace RimAttest.Controllers
         {
             SearchViewModel vm = new SearchViewModel();
             return View("SearchForm", vm);
-        }
+         }
 
 
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public ActionResult SearchRecipes(Search s, string BtnSubmit)
         {
             switch (BtnSubmit)
