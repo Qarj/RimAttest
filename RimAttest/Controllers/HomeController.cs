@@ -26,5 +26,11 @@ namespace RimAttest.Controllers
 
             return View();
         }
+        public ActionResult Pictures()
+        {
+            ViewBag.Message = "The Pictures Page.";
+
+            return View();
+        }
     }
 }
