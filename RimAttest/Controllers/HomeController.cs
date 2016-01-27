@@ -32,5 +32,12 @@ namespace RimAttest.Controllers
 
             return View();
         }
+
+        public ActionResult JavaScript()
+        {
+            ViewBag.Message = "The JavaScript Page.";
+
+            return View();
+        }
     }
 }
