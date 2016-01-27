@@ -39,5 +39,12 @@ namespace RimAttest.Controllers
 
             return View();
         }
+
+        public ActionResult Special()
+        {
+            ViewBag.Message = "Here be links to special things.";
+
+            return View();
+        }
     }
 }
