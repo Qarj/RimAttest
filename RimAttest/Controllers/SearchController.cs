@@ -25,7 +25,7 @@ namespace RimAttest.Controllers
         {
             SearchViewModel vm = new SearchViewModel();
             return View("SearchForm", vm);
-         }
+        }
 
 
         //[ValidateAntiForgeryToken]
@@ -56,11 +56,13 @@ namespace RimAttest.Controllers
                 case "Cancel":
                     return RedirectToAction("SearchForm");
             }
-            return new EmptyResult();
-
+            //return new EmptyResult();
+            SearchViewModel vm1 = new SearchViewModel();
+            return View("SearchForm", vm1);
         }
 
     }
+
 
 
 
